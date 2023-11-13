@@ -8,44 +8,44 @@
 
     name: 
 
-      - **YOUR CHALLENGE NAME**
+      - YOUR CHALLENGE NAME
 
     author: 
 
-      - **YOUR NAME**
+      - YOUR NAME
 
     category: 
 
-      - **CATEGORY**
-        **CATEGORY MUST BE ONE OF crypto/forensics/misc/osint/programming/pwn/reverse/web**
+      - "CATEGORY"
+        CATEGORY MUST BE ONE OF crypto/forensics/misc/osint/programming/pwn/reverse/web
 
     description:
 
                    |-
-      **DESCRIPTION**
+      ADD DESCRIPTION
 
     value: 
 
-      **ENTER VALUE OF YOUR PROBLEM**
+      ENTER VALUE OF YOUR PROBLEM
 
     type:  
 
-      **standart/dynamic**
+      standart/dynamic
 
       - If it's dynamic -> :
 
         - extra:
 
-          initial: 1000 **ENTER INITIAL POINT OF YOUR PROBLEM**
-          decay: 50 **DECREASING POINTS FROM SECOND SOLVER**
-          minimum: 500 **ENTER THE MINIMUM SCORE FOR YOUR PROBLEM**
+          initial: "ENTER INITIAL POINT OF YOUR PROBLEM"
+          decay:  "DECREASING POINTS FROM SECOND SOLVER"
+          minimum:  "ENTER THE MINIMUM SCORE FOR YOUR PROBLEM"
 
     flags:
 
-      **ADD FLAG OF YOUR PROBLEM, THAT MUST BE STARTS WITH "MUSTCTF{}"**
+      ADD FLAG OF YOUR PROBLEM, THAT MUST BE STARTS WITH "MUSTCTF{}"
 
     files:
-    
-      - challenge/**PATH OF YOUR FILE**
+
+      - challenge/"PATH OF YOUR FILE"
 
 Ойлгоход туслах, санаа авах байдлаар /round1/Cryptography дотор **color** даалгаврыг орууллаа. Challenge folder, "challenge.yml" болон "README.md" файлтай заавал уншиж танилцана уу.
