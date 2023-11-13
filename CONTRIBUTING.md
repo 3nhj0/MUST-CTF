@@ -8,15 +8,15 @@
 
     name: 
 
-    YOUR CHALLENGE NAME
+      YOUR CHALLENGE NAME
 
     author: 
 
-    YOUR NAME
+      YOUR NAME
 
     category: 
 
-    "CATEGORY"
+      "CATEGORY"
         CATEGORY MUST BE ONE OF crypto/forensics/misc/osint/programming/pwn/reverse/web
 
     description:
