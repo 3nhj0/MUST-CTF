@@ -14,7 +14,6 @@
 
     category: 
       - **CATEGORY**
-
         **CATEGORY MUST BE ONE OF crypto/forensics/misc/osint/programming/pwn/reverse/web**
 
     description: |-
@@ -25,7 +24,6 @@
 
     type:  
       **standart/dynamic**
-
       - If it's dynamic -> :
 
         - extra:
