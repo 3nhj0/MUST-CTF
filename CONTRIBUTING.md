@@ -8,15 +8,15 @@
 
     name: 
 
-      - YOUR CHALLENGE NAME
+    YOUR CHALLENGE NAME
 
     author: 
 
-      - YOUR NAME
+    YOUR NAME
 
     category: 
 
-      - "CATEGORY"
+    "CATEGORY"
         CATEGORY MUST BE ONE OF crypto/forensics/misc/osint/programming/pwn/reverse/web
 
     description:
@@ -32,13 +32,11 @@
 
       standart/dynamic
 
-      - If it's dynamic -> :
-
-        - extra:
-
-          initial: "ENTER INITIAL POINT OF YOUR PROBLEM"
-          decay:  "DECREASING POINTS FROM SECOND SOLVER"
-          minimum:  "ENTER THE MINIMUM SCORE FOR YOUR PROBLEM"
+      If it's dynamic -> :
+      extra:
+      initial: "ENTER INITIAL POINT OF YOUR PROBLEM"
+      decay:  "DECREASING POINTS FROM SECOND SOLVER"
+      minimum:  "ENTER THE MINIMUM SCORE FOR YOUR PROBLEM"
 
     flags:
 
@@ -46,6 +44,6 @@
 
     files:
 
-      - challenge/"PATH OF YOUR FILE"
+      challenge/"PATH OF YOUR FILE"
 
 Ойлгоход туслах, санаа авах байдлаар /round1/Cryptography дотор **color** даалгаврыг орууллаа. Challenge folder, "challenge.yml" болон "README.md" файлтай заавал уншиж танилцана уу.
