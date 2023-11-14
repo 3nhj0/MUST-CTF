@@ -49,4 +49,4 @@
       
     ```
 
-Ойлгоход туслах, санаа авах байдлаар /round1/Cryptography дотор **color** даалгаврыг орууллаа. Challenge folder, "challenge.yml" болон standard эсвэл dynamic үед оруулах "sampleyml" folder орууллаа. Жишээ болгож оруулсан файлтай заавал уншиж танилцана уу.
+Ойлгоход туслах, санаа авах байдлаар /round1/Cryptography дотор **color** даалгаврыг орууллаа. Challenge folder, "challenge.yml" болон standard эсвэл dynamic үед оруулах жишээ "sampleyml" folder дотор орууллаа. Жишээ болгож оруулсан файлтай заавал уншиж танилцана уу.
