@@ -50,3 +50,6 @@
     ```
 
 Ойлгоход туслах, санаа авах байдлаар /round1/Cryptography дотор **color** даалгаврыг орууллаа. Challenge folder, "challenge.yml" болон standard эсвэл dynamic үед оруулах жишээ "sampleyml" folder дотор орууллаа. Жишээ болгож оруулсан файлтай заавал уншиж танилцана уу.
+
+Форматын дагуу зөв оруулахад туслах байдлаар клубын хөтлөж байсан REPO-г хавсаргав. 
+https://github.com/computer-communication-security-club/ctf-night/tree/halloween-special/challenges
