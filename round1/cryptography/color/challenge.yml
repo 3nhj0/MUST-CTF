@@ -12,6 +12,6 @@ extra:
   decay: 50
   minimum: 500
 flags:
-  - ccsCTF{h4110w_c010r5_by_c!00}
+  - MUSTCTF{h4110w_c010r5_by_c!00}
 files:
   - challenge/hallbow.png
