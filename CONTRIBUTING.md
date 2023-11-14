@@ -33,8 +33,8 @@
 
       standart/dynamic
 
-      If it's dynamic -> :
-      extra:
+    If it's dynamic -> :
+    extra:
       initial: "ENTER INITIAL POINT OF YOUR PROBLEM"
       decay:  "DECREASING POINTS FROM SECOND SOLVER"
       minimum:  "ENTER THE MINIMUM SCORE FOR YOUR PROBLEM"
