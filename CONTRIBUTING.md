@@ -6,6 +6,7 @@
 
     Тухайн бодлогыг зохих category-д оруулах ба тухайн category-д бодлого тус бүрийн нэртэй folder байх ба тухайн folder-т заавал "challenge" folder болон "challenge.yml" файл байна. "challenge" folder-т тухайн бодлогонд хэрэглэгдэх ( upload хийгдэх ) файлаа байршуулах ба "challenge.yml" файл дараах бүтэцтэй байна.
 
+    ```
     name: 
 
       YOUR CHALLENGE NAME
@@ -45,5 +46,7 @@
     files:
 
       challenge/"PATH OF YOUR FILE"
+      
+    ```
 
 Ойлгоход туслах, санаа авах байдлаар /round1/Cryptography дотор **color** даалгаврыг орууллаа. Challenge folder, "challenge.yml" болон standard эсвэл dynamic үед оруулах "sampleyml" folder орууллаа. Жишээ болгож оруулсан файлтай заавал уншиж танилцана уу.
