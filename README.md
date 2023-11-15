@@ -1,4 +1,5 @@
-![MUST-CTF](https://github.com/3nhj0/MUST-CTF/assets/97040301/b7e006e4-78d0-4894-8ac7-e9519ea4687c)
+![MUST-CTF2](https://github.com/3nhj0/MUST-CTF/assets/97040301/e1e6f38b-267f-4291-aef9-267a123c3499)
+
 
 ## Бодлого зохиогч нарын анхааралд!
 
