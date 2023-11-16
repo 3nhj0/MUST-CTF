@@ -1,0 +1,15 @@
+name: "My Cat"
+author: "expletive"
+category: pwn
+description: |-
+  I created my own cat. Sometimes, my cat produces strange prints, but it's okay; the prints cannot hurt me.
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 50
+  minimum: 500
+flags:
+  - MUSTCTF{G0T_0VERWRITE}
+files:
+  - challenge/pub
