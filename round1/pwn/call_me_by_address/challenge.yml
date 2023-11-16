@@ -1,0 +1,15 @@
+name: "Call me By Address"
+author: "expletive"
+category: pwn
+description: |-
+  Do you know Bob Address.
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 50
+  minimum: 500
+flags:
+  - MUSTCTF{B@SE_ADDRESS}
+files:
+  - challenge/pub
