@@ -1,0 +1,15 @@
+name: "Overflux"
+author: "expletive"
+category: pwn
+description: |-
+  I discovered that this shop is selling something illegal. Can you obtain it for me?
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 200
+flags:
+  - MUSTCTF{Int3ger_0Verfl0w}
+files:
+  - challenge/critical_secrets
