@@ -1,0 +1,15 @@
+name: "Password Manager"
+author: "tush1g"
+category: crypto
+description: |-
+  Are Password Managers Safe to Use in 2023?
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 10
+  minimum: 200
+flags:
+  - MUSTCTF{3v3ry_PM_n0t_s4fe}
+files:
+  - challenge/critical_secrets
