@@ -7,7 +7,7 @@ value: 500
 type: dynamic
 extra:
   initial: 500
-  decay: 10
+  decay: 20
   minimum: 200
 flags:
   - MUSTCTF{3v3ry_PM_n0t_s4fe}
