@@ -1,0 +1,15 @@
+name: "sxor"
+author: "expletive"
+category: Reverse
+description: |-
+  
+value: 750
+type: dynamic
+extra:
+  initial: 750
+  decay: 25
+  minimum: 500
+flags:
+  - MUST{E50ZT6H23TX48MEZIUV3}
+files:
+  - challenge/sxor
