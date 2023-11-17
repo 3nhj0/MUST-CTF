@@ -1,0 +1,15 @@
+name: "2FA - Easy"
+author: "fg0x0"
+category: Reverse
+description: |-
+  
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 25
+  minimum: 500
+flags:
+  - MUSTCTF{ultrasecretpassword}
+files:
+  - Challenge/2FA
