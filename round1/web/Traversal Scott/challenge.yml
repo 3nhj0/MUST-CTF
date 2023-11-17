@@ -1,0 +1,20 @@
+name: "Traversal Scott - 1"
+author: "fg0x0"
+category: web
+description: |-
+  I know that my identity is a good path. Probably you need five or six digits.
+  **Author**: fg0x0
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 30
+  minimum: 500
+flags:
+  - MUSTCTF{huh_f1nally/-yoU_g0t-1t}
+files:
+  - /production
+connection_info: REDACTED
+tags:
+    - web
+version: "0.1"
