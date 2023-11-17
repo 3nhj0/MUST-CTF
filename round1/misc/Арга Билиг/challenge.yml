@@ -1,0 +1,17 @@
+name: "Арга Билиг"
+author: "c!0"
+category: Misc
+description: |-
+  
+  **Author**: c!0
+value: 1500
+type: dynamic
+extra:
+  initial: 1500
+  decay: 20
+  minimum: 1000
+flags:
+  - MUSTCTF{d4tw4s4ctu411y3z}
+files:
+  - challenge/Арга.jpg
+  - challenge/Билиг.jpg
