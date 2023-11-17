@@ -1,0 +1,15 @@
+name: "Register"
+author: "expletive"
+category: pwn
+description: |-
+  You need to fill out this form before obtaining the flag
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 200
+flags:
+  - MUSTCTF{RIP_0verwrite}
+files:
+  - challenge/pub
