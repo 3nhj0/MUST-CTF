@@ -1,0 +1,77 @@
+User-agent: *
+Allow: /
+
+
+User-agent: *
+Disallow: /
+
+
+User-agent: *
+Disallow: /private/
+
+
+User-agent: BadBot
+Disallow: /flag
+
+
+User-agent: Googlebot
+Allow: /test
+
+
+User-agent: *
+Crawl-delay: 10
+
+
+User-agent: Googlebot
+Allow: /apple
+
+User-agent: Googlebot
+Allow: /banana
+
+User-agent: Googlebot
+Allow: /arrow
+
+User-agent: Googlebot
+Allow: /s3cr3t
+
+User-agent: Googlebot
+Allow: /Host
+
+User-agent: Googlebot
+Allow: /domain
+
+
+
+
+User-agent: Googlebot
+Allow: /sun
+
+
+
+User-agent: Googlebot
+Allow: /author
+
+
+User-agent: Googlebot
+Allow: /t0p_s3cr3t
+
+
+User-agent: Googlebot
+Allow: /bottom_s3cr3t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
