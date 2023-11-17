@@ -1,0 +1,15 @@
+name: "warm up"
+author: "tush1g"
+category: crypto
+description: |-
+  Super simple challenge
+value: 100
+type: dynamic
+extra:
+  initial: 100
+  decay: 10
+  minimum: 50
+flags:
+  - MUSTCTF{C0nf1d3ntial!ty_1s_1mport4nt}
+files:
+  - challenge/challenge.txt
