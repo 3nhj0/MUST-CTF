@@ -1,0 +1,15 @@
+name: "a lot of technique"
+author: "T6X3G"
+category: reverse engineering
+description: |-
+    only one flag flies in war
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 30
+  minimum: 500
+flags:
+  - MUSTCTF{inYOUUURRFLAGggg}
+files:
+  - challenge/rev.py
