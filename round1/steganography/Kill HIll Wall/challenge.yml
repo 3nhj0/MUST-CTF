@@ -1,0 +1,16 @@
+name: "Kill Wall Hill"
+author: "T6X3G"
+category: Steganography
+description: |-
+  In order to obtain the Key of the House, it was necessary to climb a high Hill
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 30
+  minimum: 500
+flags:
+  - MUSTCTF{HILLCIPHERISINTERESTINGANDADVENTUROUS__}
+files:
+  - challenge/Kill Wall Hill
