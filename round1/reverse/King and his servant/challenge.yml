@@ -4,12 +4,12 @@ category: Reverse
 description: |-
   
   **Author**: c!0
-value: 750
+value: 1500
 type: dynamic
 extra:
-  initial: 750
-  decay: 25
-  minimum: 500
+  initial: 1500
+  decay: 20
+  minimum: 1000
 flags:
   - MUSTCTF{yummys4l4t1h4v33v3rh4d}
 files:

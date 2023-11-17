@@ -1,0 +1,16 @@
+name: "Stinging"
+author: "c!0"
+category: Misc
+description: |-
+  
+  **Author**: c!0
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 30
+  minimum: 500
+flags:
+  - MUSTCTF{!h44hth4tsj4st4n0th3r5tr1ng5}
+files:
+  - challenge/misc.txt
