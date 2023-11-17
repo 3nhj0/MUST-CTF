@@ -1,0 +1,17 @@
+name: "King and his servant"
+author: "c!0"
+category: Reverse
+description: |-
+  
+  **Author**: c!0
+value: 750
+type: dynamic
+extra:
+  initial: 750
+  decay: 25
+  minimum: 500
+flags:
+  - MUSTCTF{yummys4l4t1h4v33v3rh4d}
+files:
+  - challenge/enc.py
+  - challenge/key.png
