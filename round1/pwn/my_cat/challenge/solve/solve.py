@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from pwn import *
 
-exe = context.binary = ELF(args.EXE or './my_cat')
+exe = context.binary = ELF(args.EXE or '../pub/my_cat')
 
 host = args.HOST or '127.0.0.1'
-port = int(args.PORT or 8889)
+port = int(args.PORT or 10001)
 
 def start_local(argv=[], *a, **kw):
     if args.GDB:
