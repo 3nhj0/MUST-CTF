@@ -1,0 +1,16 @@
+name: "Never Give Up"
+author: "C!0"
+category: Steganography
+description: |-
+  
+  **Author**: c!0
+value: 1500
+type: dynamic
+extra:
+  initial: 1500
+  decay: 20
+  minimum: 1000
+flags:
+  - MUSTCTF{D01N4UD105T3G15FUN}
+files:
+  - challenge/N3V3R G0NN4 G1V3 UP.mp3
