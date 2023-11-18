@@ -1,5 +1,5 @@
 # sudo docker build -t call_me_by_address .
-# sudo docker run -p 10000:10000 call_me_by_address:latest
+# sudo docker run -d -p 10000:10000 call_me_by_address:latest
 
 FROM ubuntu:22.04
 

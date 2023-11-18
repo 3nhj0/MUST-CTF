@@ -1,5 +1,5 @@
 # sudo docker build -t overflux .
-# sudo docker run -p 10002:10002 overflux:latest
+# sudo docker run -d -p 10002:10002 overflux:latest
 
 FROM ubuntu:22.04
 

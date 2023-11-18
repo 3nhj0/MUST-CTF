@@ -3,7 +3,7 @@ from pwn import *
 
 exe = context.binary = ELF(args.EXE or '../pub/call_me_by_address')
 
-host = args.HOST or '127.0.0.1'
+host = args.HOST or '54.92.51.205'
 port = int(args.PORT or 10000)
 
 def start_local(argv=[], *a, **kw):
