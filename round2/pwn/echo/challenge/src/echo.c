@@ -6,7 +6,6 @@ __attribute__((constructor)) void setup(){
 	setbuf(stderr, NULL);
 }
 
-
 int win() {
     system("/bin/sh");
 }
