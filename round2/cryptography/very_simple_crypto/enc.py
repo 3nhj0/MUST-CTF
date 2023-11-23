@@ -5,8 +5,8 @@ def encr(msg, x, y):
     return ct
 
 til = 882564595536224140639625987659416029426239230804614613279163
-lit = 65537 #exp uurchluh 
-ctext = hex(encr(tug, til, lit))[2:]
+f4 = 65537 #chnge
+ctext = hex(encr(tug, til, f4))[2:]
 with open('ct.txt','w') as f:
 	f.write(ctext)
 
