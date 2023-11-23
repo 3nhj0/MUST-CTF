@@ -1,1 +1,1 @@
-MUSTCTF{x64_Calling_C0nvention}
+MUSTCTF{x64_Calling_C0nvenTion}

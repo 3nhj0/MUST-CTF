@@ -2,7 +2,6 @@ name: "Beteg"
 author: "expletive"
 category: pwn
 description: |-
-  I created my own cat. Sometimes, my cat produces strange prints, but it's okay; the prints cannot hurt me.
 value: 
 type: dynamic
 extra:
@@ -10,6 +9,6 @@ extra:
   decay: 
   minimum: 
 flags:
-  - MUSTCTF{STACK_CANARY&C00KIE}
+  - MUSTCTF{x64_Calling_C0nvenTion}
 files:
   - challenge/pub
