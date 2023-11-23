@@ -1,0 +1,15 @@
+name: "Echo"
+author: "expletive"
+category: pwn
+description: |-
+  I created my own cat. Sometimes, my cat produces strange prints, but it's okay; the prints cannot hurt me.
+value: 
+type: dynamic
+extra:
+  initial: 
+  decay: 
+  minimum: 
+flags:
+  - MUSTCTF{STACK_CANARY&C00KIE}
+files:
+  - challenge/pub
