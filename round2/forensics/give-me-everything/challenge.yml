@@ -1,0 +1,12 @@
+name: "give-me-everything"
+author: "naiame"
+category: "Forensics"
+description: |-
+  Hey there, Pasca told me you are a pro hacker. There was incident last night, I believe we lost some sensetive information got leaked can you check it? I have managed to get packet capture from last night and filtered out for you
+
+value: 1000
+type: dynamic
+flags:
+  - flag{c9bfd000fe7d4b36b534160d3df456de}
+files:
+  - challenge/capture.pcapng
