@@ -1,1 +1,0 @@
-MUSTCTF{e010b9c41efa4a817eaa}
