@@ -1,4 +1,4 @@
-from flag import tug
+from secret import tug
 def encr(msg, x, y):
     msg2 = int.from_bytes(msg, byteorder='big')
     ct = pow(msg2, y, x)
