@@ -1,0 +1,15 @@
+name: "leaky"
+author: "byamb4"
+category: pwn
+description: 35.225.230.153:1337
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 25
+  minimum: 500
+flags:
+  - MUSTCTF{9sHQhw3A51XyauET<byamb4>Aj4z1o6eXzGK9bKk}
+files:
+  - Challenge/challenge
