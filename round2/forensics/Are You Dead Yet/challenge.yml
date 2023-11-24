@@ -1,0 +1,15 @@
+name: "Are You Dead Yet?"
+author: "fg0x0"
+category: Forensics
+description: "Амралтын өдрөөр манай байгууллага үл мэдэгдэх Ransomware халдлагад өртчихжээ. Бидний хувьд хамгийн чухал файл нь монгол улсын их сургуулийн оюутнуудын бүх дата .cpt өргөтгөлтэй болчихлоо. Та энэхүү Ransomware-г тайлж чадах уу?"
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 25
+  minimum: 500
+flags:
+  - MUSTCTF{1ea56545152f34178bbcb535bd018a31d0600e8d125f7d12a11998bab4e7826d}
+files:
+  - Are You Dead Yet/are-you-dead-yet.tar
