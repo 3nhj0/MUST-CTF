@@ -1,0 +1,15 @@
+name: "runme"
+author: "byamb4"
+category: Reverse
+description: |-
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 25
+  minimum: 500
+flags:
+  - MUSTCTF{E3f26rw8P1BwWGgn<byamb4>wRbihGZdS3e3K63j}
+files:
+  - Challenge/challenge

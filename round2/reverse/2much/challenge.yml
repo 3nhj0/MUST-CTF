@@ -1,0 +1,15 @@
+name: "2much"
+author: "byamb4"
+category: Reverse
+description: |-
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 25
+  minimum: 500
+flags:
+  - MUSTCTF{9qaVZ2ByJ9UimHL9<byamb4>Pwk18k6p9lbrPBji}
+files:
+  - Challenge/challenge
