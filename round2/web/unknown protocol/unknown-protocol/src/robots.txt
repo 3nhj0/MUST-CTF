@@ -1,2 +1,0 @@
-User-agent: your-princess-is-in-another-castle
-Disallow:
