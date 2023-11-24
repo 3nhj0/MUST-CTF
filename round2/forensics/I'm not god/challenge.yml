@@ -1,0 +1,15 @@
+name: "i'm not god"
+author: "fg0x0"
+category: Forensics
+description: |-
+
+value: 1000
+type: dynamic
+extra:
+  initial: 1000
+  decay: 25
+  minimum: 500
+flags:
+  - MUSTCTF{mundagyumaauuruu}
+files:
+  - I'm not god/i'm-not-god.mp4
