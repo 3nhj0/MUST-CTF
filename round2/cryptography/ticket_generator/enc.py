@@ -11,4 +11,4 @@ with open('ct.txt','w') as f:
 	f.write(encd)
 print("your_ticket",encd)
 
-#your_ticket='0x8081d27d43aa21d16a5ecb683977c03df9f823fb737efd965f'
+#your_ticket='0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca'
