@@ -20,7 +20,7 @@ RUN chmod 400 flag.txt
 # PE
 #RUN crontab /etc/cron.d/check_cron
 RUN mkdir -p /etc/sudoers.d
-RUN echo "myuser ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/ctf
+RUN echo "ctf ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/ctf
 
 USER ctf 
 
